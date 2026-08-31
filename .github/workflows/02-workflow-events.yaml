@@ -1,6 +1,11 @@
 ---
 name: 02 - Workflow
-on: push
+on:
+  push:
+  pull_request:
+  schdeule:
+    - cron: '/5 * * * *'
+
 jobs:
   echo:
     runs-on: ubuntu-latest
