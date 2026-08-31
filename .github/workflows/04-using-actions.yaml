@@ -1,6 +1,5 @@
 name: "04 - Using Actions"
-on:
-  push: null
+on: workflow_dispatch
 jobs:
   build:
     runs-on: ubuntu-latest
