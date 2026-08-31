@@ -1,10 +1,7 @@
 ---
 name: 02 - Workflow
 on:
-  push: null
   pull_request: null
-  schedule:
-    - cron: "*/5 * * * *"
   workflow_dispatch: null
 jobs:
   echo:
